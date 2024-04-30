@@ -9,13 +9,9 @@
     - After Chapter 4: Use (`grep`, `find`), and regular expressions to search text within files.
     - After Chapter 5: Practice redirecting outputs with (`>`, `>>`, and pipes `|`).
 - **Git**: 
-  - Watch "Git for Beginners" on YouTube.
-    - Access at: [Git for Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+    - Watch "Git and GitHub Tutorial for Beginners".
+    - Access at: [Git and GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw)
     - Immediately after watching: Initialize a Git repository, practice adding files (`git add`), committing (`git commit`), and checking status (`git status`).
-  - Additional Resource:
-    - Watch "Git and GitHub for Poets" series on YouTube by The Coding Train.
-    - Access at: [Git and GitHub for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY)
-    - This series is excellent for understanding how Git and GitHub can be used creatively in programming projects.
 - **Ansible**: Read "Ansible for DevOps" by Jeff Geerling, Chapters 1-3.
     - After Chapter 1: Write a simple playbook that checks system uptime.
     - After Chapter 2: Create a playbook to install and start a web server.
