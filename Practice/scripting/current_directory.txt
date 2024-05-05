@@ -1,0 +1,36 @@
+.
+..
+.git
+Ansible
+Azure
+CI_CD
+Chaos_Engineering
+Docker
+Git
+Kubernetes
+Leadership
+Linux
+Practice
+Projects
+Python
+README.md
+Security
+Terraform
+resources.md
+total 32
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:50 Ansible
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:50 Azure
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:50 CI_CD
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:50 Chaos_Engineering
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:50 Docker
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:51 Git
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:51 Kubernetes
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:51 Leadership
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:51 Linux
+drwxr-xr-x  4 evo  staff   128 May  1 22:19 Practice
+drwxr-xr-x  5 evo  staff   160 May  5 17:48 Projects
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:51 Python
+-rw-r--r--  1 evo  staff  5173 Apr 30 17:34 README.md
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:51 Security
+drwxr-xr-x  3 evo  staff    96 Apr 27 16:52 Terraform
+-rw-r--r--  1 evo  staff  5563 Apr 27 16:30 resources.md
