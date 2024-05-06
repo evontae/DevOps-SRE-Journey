@@ -16,4 +16,7 @@ if [ ! -d "$directory" ]; then
 fi 
 
 # List all the elements in the variabel directory then redirect to current_directory.txt file
-ls -at > "$directory/current_saved_directory.txt"
+ls -a > "$directory/$(date +%Y%m%d_%H%M%S)_directory.txt"
+
+# Changing permissions to ensure the file can run
+chmod u+x $0
