@@ -2,7 +2,7 @@
 
 ## Overview
 
-This serves are a workign directory for practice projects, etc.
+This serves are a working directory for practice projects, etc.
 
 ### Scripts
 - **Get_directory.sh & directory_info.sh**

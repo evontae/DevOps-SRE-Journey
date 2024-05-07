@@ -8,7 +8,7 @@
 # Changes permissions to ensure the script is executable.
 
 # initialize variable for directory
-directory="/Users/evo/path/DevOps-SRE-Journey/Practice/scripting"
+directory="/Users/evo/path/DevOps-SRE-Journey/Linux/Practice"
 
 # Use if statement to check to see if the directory exsists, if not then create it
 if [ ! -d "$directory" ]; then
