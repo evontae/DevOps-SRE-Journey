@@ -7,7 +7,7 @@ import datetime
 ctime = datetime.datetime.now()
 
 # Format the current time method
-formated_time = ctime.strftime('%I:%M %b %d %Y ')
+formated_time = ctime.strftime('%I:%M %b %d %Y')
 
 # Print out current time
 print(f'The current time is: {formated_time}')
