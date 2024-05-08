@@ -8,16 +8,14 @@ cwd = os.getcwd()
 # Get disk space information for the current filesystem
 disk_stat = os.statvfs(cwd)
 
-# Get the total file size
-total_size_files = disk_stat.f_bsize * disk_stat.f_blocks
+# Updated calculation on blocks
+total_blocks = disk_stat.f_blocks
+free_blocks = disk_stat.f_bfree
+used_blocks = total_blocks - free_blocks
+disk_usage_percentage = (used_blocks / total_blocks) * 100
 
-# Calculate block size as a percentage of total size
-block_size_percentage = (disk_stat.f_frsize / total_size_files) * 100
-
-# Check if block size is 80% or more of total size
-if block_size_percentage >= 80:
-    # Send a desktop notification
+if disk_usage_percentage >= 80:
     message = "Disk usage exceeds 80%!"
-    os.system("notify-send 'Disk Usage Alert' '{}'".format(message))
+    os.system(f"notify-send 'Disk Usage Alert' '{message}'")
 else:
-    print(f"The block size is not significant compared to the total size.")
+    print(f"Current disk usage is {disk_usage_percentage:.2f}%. Capacity is within normal limits.")
