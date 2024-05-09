@@ -30,3 +30,35 @@ Network Metrics:
 System Uptime:
   Time:2024-05-02 12:20:45.870148
 
+Metrics as of: 11:06 May 09 2024
+
+CPU Usage:
+  Percent:6.2%
+Disk Usage:
+  Percent:98.4%
+Memory Usage:
+  Percent:22.8%
+Network Metrics:
+  Bytes Sent: 33167405
+  Bytes Received: 160220999
+  Packets Sent: 236820
+  Packets Received: 360402
+System Uptime:
+  Time:2024-05-08 16:11:01.217356
+
+Metrics as of: 11:06 May 09 2024
+
+CPU Usage:
+  Percent:6.2%
+Disk Usage:
+  Percent:98.4%
+Memory Usage:
+  Percent:22.8%
+Network Metrics:
+  Bytes Sent: 33167405
+  Bytes Received: 160220999
+  Packets Sent: 236820
+  Packets Received: 360402
+System Uptime:
+  Time:2024-05-08 16:11:01.217356
+
